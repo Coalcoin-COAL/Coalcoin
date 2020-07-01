@@ -56,9 +56,12 @@ Dependency Build Instructions: Ubuntu & Debian
 Build requirements:
 
 	sudo add-apt-repository ppa:bitcoin/bitcoin
-	sudo apt-get update
-	sudo apt-get install build-essential libssl1.0-dev qt4-default libzmq3-dev libprotobuf-dev protobuf-compiler libqt4-dev libminiupnpc-dev libdb4.8-dev libdb4.8++-dev libboost-all-dev
-	sudo apt-get install libtool autotools-dev automake pkg-config libevent-dev bsdmainutils libboost-system-dev libboost-filesystem-dev libboost-chrono-dev libboost-program-options-dev libboost-test-dev libboost-thread-dev
+    	sudo apt-get update
+    	sudo apt-get install build-essential libssl1.0-dev qt4-default libzmq3-dev libprotobuf-dev protobuf-compiler libqt4-dev libminiupnpc-dev 
+	sudo apt-get install libdb4.8-dev libdb4.8++-dev libboost-all-dev
+    	sudo apt-get install libtool autotools-dev automake pkg-config libevent-dev bsdmainutils libboost-system-dev libboost-chrono-dev
+    	sudo apt-get install libboost-filesystem-dev libboost-program-options-dev libboost-thread-dev libdb4.8++-dev libminiupnpc-dev
+    	sudo apt-get install libdb5.3++-dev
 
 
 Notes
