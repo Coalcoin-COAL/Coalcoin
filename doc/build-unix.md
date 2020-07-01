@@ -14,6 +14,12 @@ To Build
 	cd src/
 	make -f makefile.unix		# Headless coalcoin
 
+To Build QT4
+---------------------
+
+	qmake
+	make
+
 See readme-qt.rst for instructions on building Coalcoin-Qt, the graphical user interface.
 
 Dependencies
