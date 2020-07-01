@@ -35,7 +35,7 @@ CTxMemPool mempool;
 unsigned int nTransactionsUpdated = 0;
 
 map<uint256, CBlockIndex*> mapBlockIndex;
-uint256 hashGenesisBlock("0x95894d4bd9d5f03f90db4655d860a6db78bd1d06ab2815aa17deda9367e6c2ac");
+uint256 hashGenesisBlock("0x2486e66582fff4dcde9791b13f767589148b8332397392f7a1fac5446d221484");
 static CBigNum bnProofOfWorkLimit(~uint256(0) >> 20); // Coalcoin: starting difficulty is 1 / 2^12
 CBlockIndex* pindexGenesisBlock = NULL;
 int nBestHeight = -1;
@@ -2855,7 +2855,7 @@ bool InitBlockIndex() {
         printf("%s\n", hash.ToString().c_str());
         printf("%s\n", hashGenesisBlock.ToString().c_str());
         printf("%s\n", block.hashMerkleRoot.ToString().c_str());
-        assert(block.hashMerkleRoot == uint256("0xf066f9a2f0dda84077ed759054164e612a2c44033b2732ad118cb4e0f575ce60"));
+        assert(block.hashMerkleRoot == uint256("0x2486e66582fff4dcde9791b13f767589148b8332397392f7a1fac5446d221484"));
         block.print();
         assert(hash == hashGenesisBlock);
 
