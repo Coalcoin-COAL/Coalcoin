@@ -1,25 +1,24 @@
 Coalcoin integration/staging tree
 ================================
 
-http://www.coalcoin.org
+https://coalcoin-coal.github.io/coal-website/
 
 Copyright (c) 2009-2014 Bitcoin Developers
-Copyright (c) 2011-2014 Coalcoin Developers
+Copyright (c) 2011-2014 Litecoin Developers
+Copyright (c) 2014-2020 Coalcoin Developer
 
 What is Coalcoin?
 ----------------
 
-Coalcoin is a lite version of Bitcoin using scrypt as a proof-of-work algorithm.
+Coalcoin is a industry version of Litecoin using scrypt as a proof-of-work algorithm.
  - 5 minute block targets
  - subsidy halves in 420k blocks (~4 years)
  - ~45 million total coins
-
-The rest is the same as Bitcoin.
  - 53 coins per block
  - 144 blocks to retarget difficulty
 
 For more information, as well as an immediately useable, binary version of
-the Coalcoin client sofware, see http://www.coalcoin.org.
+the Coalcoin client sofware, see https://coalcoin-coal.github.io/coal-website/.
 
 License
 -------
