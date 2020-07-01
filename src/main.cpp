@@ -2744,11 +2744,11 @@ bool LoadBlockIndex()
 {
     if (fTestNet)
     {
-        pchMessageStart[0] = 0xc3;
-        pchMessageStart[1] = 0xff;
-        pchMessageStart[2] = 0xb1;
-        pchMessageStart[3] = 0xca;
-        hashGenesisBlock = uint256("0x25fec2be03a295336783d65478aabf31f5283eed55e95ab47b9da2319152ee5d");
+        pchMessageStart[0] = 0xf2;
+        pchMessageStart[1] = 0xc4;
+        pchMessageStart[2] = 0xb3;
+        pchMessageStart[3] = 0xd7;
+        hashGenesisBlock = uint256("0xe7a115d10b1f6fb9f7d59bb942fbec0e3c51f6bab18da17665b8f46e53731df3");
     }
 
     //
@@ -2799,8 +2799,8 @@ bool InitBlockIndex() {
 
         if (fTestNet)
         {
-            block.nTime    = 1317798646;
-            block.nNonce   = 385270584;
+            block.nTime    = 1593578780;
+            block.nNonce   = 2085298677;
         }
 
         // ----- EXTRA CODE BEGIN ----- //
