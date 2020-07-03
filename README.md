@@ -15,7 +15,7 @@ Coalcoin is a industry version of Litecoin using scrypt as a proof-of-work algor
  - subsidy halves in 420k blocks (~4 years)
  - ~45 million total coins
  - 53 coins per block
- - 144 blocks to retarget difficulty
+ - 2 blocks to retarget difficulty
 
 For more information, as well as an immediately useable, binary version of
 the Coalcoin client sofware, see https://coalcoin-coal.github.io/coal-website/.
